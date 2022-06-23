@@ -3,18 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "eleventy-plugin-error-overlay": "^1.0.0",
-    "html-minifier": "^4.0.0"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
 }
