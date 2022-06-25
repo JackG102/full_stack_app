@@ -4,6 +4,7 @@ const ErrorOverlay = require('eleventy-plugin-error-overlay');
 module.exports = eleventyConfig => {
   eleventyConfig.setTemplateFormats(['md']);
   eleventyConfig.addPlugin(ErrorOverlay);
+  eleventyConfig.addPassthroughCopy("src/_assets/");
   eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
     if (outputPath.endsWith('.html')) {
       let minified = HtmlMin.minify(content, {
