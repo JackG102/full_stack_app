@@ -29,6 +29,11 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "blog_posts"
+    },
+    "Slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
