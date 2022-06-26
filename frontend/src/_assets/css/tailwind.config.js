@@ -3,9 +3,7 @@ module.exports = {
   safelist: [],
   theme: {
     extend: {
-      colors: {
-        change: 'transparent',
-      },
+
     },
   },
   plugins: [],
