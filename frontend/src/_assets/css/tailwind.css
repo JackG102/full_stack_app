@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  .change {
-    color: transparent;
+  a {
+    @apply pt-0.5 pr-0.5 pl-0.5 bg-indigo-100 hover:underline;
+  }
+
+  p {
+    @apply mb-4;
   }
 }
