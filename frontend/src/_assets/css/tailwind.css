@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer utilities {
+  html {
+    height: 100%;
+    color: #FAF9F6;
+  }
+
   a {
-    @apply pt-0.5 pr-0.5 pl-0.5 bg-indigo-100 hover:underline;
+    @apply underline;
   }
 
   p {
