@@ -7,10 +7,10 @@ pagination:
   alias: articles
 ---
 
-# Restaurant
+# Articles
 
 <ul>
   {%- for article in articles -%}
-    <li>{{ article.attributes.Title }}</li>
+    <li><a href="articles/{{ article.attributes.Slug }}">{{ article.attributes.Title }}</a></li>
   {%- endfor -%}
 </ul>
